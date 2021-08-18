@@ -1,0 +1,45 @@
+.sidebar {
+  width: 205px;
+  background-color: black;
+  height: 800px;
+  color: white;
+}
+
+.sidebar ul {
+  list-style: none;
+  line-height: 3;
+  padding: 0 0 0 12px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #979797;
+  font-size: 14px;
+  font-family: "Roboto";
+}
+
+.sidebar .line {
+  background-color: #333333;
+  position: absolute;
+  width: 188px;
+  height: 1px;
+}
+
+.sidebar .icon {
+  color: white;
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  filter: invert(55%);
+}
+
+.sidebar .messanger {
+  text-transform: uppercase;
+  color: #979797;
+  font-size: 14px;
+  font-family: "Roboto";
+  padding: 25px 0 0 30px;
+}
+
+/*# sourceMappingURL=sidebar.css.map */

@@ -4,15 +4,31 @@
 @import "layout";
 
 /* Components */
-/* @import "components/form_field"; */
 
 /* Sections */
-/* @import "section/registration_form"; */
+@import "sections/sidebar.scss";
+@import "sections/topbar.scss"; 
 
 /* Pages / Views */
  /* @import "pages/registration"; */
 
-div{
-    background-color: black;
-    color: white;
+body {
+    height: 800px;
 }
+
+
+
+
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+
