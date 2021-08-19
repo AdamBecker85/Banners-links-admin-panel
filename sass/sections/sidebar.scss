@@ -1,5 +1,5 @@
 .sidebar {
-    width: 205px;
+    width: 190px;
     background-color: black;
     height: 800px;
     color:white;
@@ -18,8 +18,9 @@
     .line {
         background-color: rgb(51, 51, 51);
         position: absolute;
-        width: 188px;
+        width: 280px;
         height: 1px;
+        justify-content: center;
     }
     .icon {
         color: white;

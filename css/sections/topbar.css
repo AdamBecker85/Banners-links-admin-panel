@@ -6,12 +6,11 @@
   background-color: black;
   float: left;
   height: 60px;
-  width: 190px;
 }
 
 .topbar .logo img {
   position: absolute;
-  left: 20px;
+  left: 50px;
   top: 18px;
 }
 
@@ -24,6 +23,68 @@
 
 .topbar .form {
   background-color: white;
+  height: 60px;
+}
+
+.topbar .form img {
+  width: 20px;
+  height: 20px;
+  filter: invert(55%);
+  vertical-align: middle;
+}
+
+.topbar .form ul {
+  float: right;
+  margin: 0;
+}
+
+.topbar .form li {
+  display: inline-block;
+  text-align: center;
+}
+
+.topbar .form button {
+  border: none;
+  background: none;
+  font-size: 20px;
+  font-family: "Roboto";
+  color: #9c9c9c;
+  line-height: 2.1;
+}
+
+.topbar .form p {
+  font-size: 13px;
+  font-family: "Roboto";
+  color: #56819f;
+  line-height: 2.1;
+}
+
+.topbar .form .arrow {
+  width: 10px;
+  height: 10px;
+}
+
+.topbar .form .wallet {
+  width: 190px;
+}
+
+.topbar .form .notification {
+  width: 55px;
+}
+
+.topbar .form .profile {
+  width: 175px;
+}
+
+.topbar .form .quit {
+  width: 60px;
+}
+
+.topbar .form .lineone {
+  background-color: #E3E3E3;
+  position: absolute;
+  width: 1px;
+  height: 60px;
 }
 
 /*# sourceMappingURL=topbar.css.map */
