@@ -1,27 +1,11 @@
 .topbar {
     height: 60px;
-
-    .logo {
-        background-color: black;
-        float: left;
-        height: 60px;
-
-        img {
-            position: absolute;
-            left: 50px;
-            top: 18px;
-        }
-        .fa-bars {
-            color: grey;
-            float: right;
-            padding: 20px 18px 0 0;
-            font-size: 22px;;
-        } 
-    }
+    //width: 100vw;  
 
     .form {
         background-color: white;
         height: 60px;
+        margin: 0;
         
         img{
             width: 20px;
@@ -36,7 +20,7 @@
         li{
             display: inline-block;
             text-align: center;
-            
+            vertical-align: middle;
         }
         button{
             border: none;

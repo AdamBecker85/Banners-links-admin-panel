@@ -2,28 +2,10 @@
   height: 60px;
 }
 
-.topbar .logo {
-  background-color: black;
-  float: left;
-  height: 60px;
-}
-
-.topbar .logo img {
-  position: absolute;
-  left: 50px;
-  top: 18px;
-}
-
-.topbar .logo .fa-bars {
-  color: grey;
-  float: right;
-  padding: 20px 18px 0 0;
-  font-size: 22px;
-}
-
 .topbar .form {
   background-color: white;
   height: 60px;
+  margin: 0;
 }
 
 .topbar .form img {
@@ -41,6 +23,7 @@
 .topbar .form li {
   display: inline-block;
   text-align: center;
+  vertical-align: middle;
 }
 
 .topbar .form button {

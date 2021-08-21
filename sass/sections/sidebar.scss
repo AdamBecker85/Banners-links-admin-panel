@@ -1,40 +1,67 @@
 .sidebar {
     width: 190px;
     background-color: black;
-    height: 800px;
+    height: 100vmax;
     color:white;
+    float: left;
+    
+    .logo {
+        background-color: black;
+        float: left;
+        height: 60px;
 
-    ul{
-        list-style: none;
-        line-height: 3;
-        padding: 0 0 0 12px;
+        img {
+            position: absolute;
+            left: 20px;
+            top: 18px;
+        }
+        a {
+            color: grey;
+            float: right;            
+            font-size: 22px;
+            position: absolute;
+            left: 150px;
+            top: 18px;
+        } 
     }
-    a{
-        text-decoration: none;
-        color: #979797;
-        font-size: 14px;
-        font-family: "Roboto";
-    }
-    .line {
-        background-color: rgb(51, 51, 51);
+
+    .nav{
         position: absolute;
-        width: 280px;
-        height: 1px;
-        justify-content: center;
-    }
-    .icon {
-        color: white;
-        width: 15px;
-        height: 15px;
-        margin-right: 20px;
-        margin-left: 20px;
-        filter: invert(55%);
-    }
-    .messanger{
-        text-transform: uppercase;
-        color: #979797;
-        font-size: 14px;
-        font-family: "Roboto";
-        padding: 25px 0 0 30px; 
+        top: 60px;
+
+        ul{
+            list-style: none;
+            line-height: 3;
+            padding: 0;
+        }                    
+        
+        a{
+            text-decoration: none;
+            color: #979797;
+            font-size: 14px;
+            font-family: "Roboto";
+        }
+        .line {
+            background-color: rgb(51, 51, 51);
+            position: absolute;
+            width: 190px;
+            height: 1px;
+            
+        }
+        .icon {
+            color: white;
+            width: 15px;
+            height: 15px;
+            margin-right: 20px;
+            margin-left: 20px;
+            filter: invert(55%);
+        }
+        .messanger{
+            text-transform: uppercase;
+            color: #979797;
+            font-size: 14px;
+            font-family: "Roboto";
+            padding: 20px;
+        }
     }
 }

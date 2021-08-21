@@ -13,14 +13,49 @@
  /* @import "pages/registration"; */
 
 body {
-    height: 800px;
+    height: 100vmax;
 }
 
 
 
 .main {
-    background-color: #F5F5F2;    
+    background-color: #F5F5F2;
+    margin-left: 190px;
+
+    .content{
+        height: 100vmax;
+        background-color: #F5F5F2;
+        
+        .maincontent{
+            margin: 17px 17px;
+            background-color: white;
+
+            .date{
+                height: 200px;
+            }
+            .header{
+                border-bottom-color: #F5F5F2;
+                border-bottom-style: solid;
+                p {            
+                    font-size: 16px;
+                    font-family: "Roboto";
+                    color: rgb(166, 166, 166);
+                    text-transform: uppercase;
+                    line-height: 2.625;
+                    text-align: left;
+                    padding-left: 17px;
+                    margin: 0;
+                            
+                }
+                
+            }
+        }
+    }
+
+    
 }
+
+
 
 
 

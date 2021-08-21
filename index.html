@@ -7,48 +7,59 @@
     </head>
     <body>
 
-        <nav class="topbar">
+        <div class="sidebar">
             
-            <div class="row">
-                <div class="logo col-2">
-                    <img src="images/logo.png" alt="logo">
-                    <a href="#"><i class="fas fa-bars"></i></a>
-                </div>
-                <div class="form col-10">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+                <a href="#"><i class="fas fa-bars"></i></a>
+            </div>
+            
+
+            <div class="nav">                    
+                <ul>
+                    <li><a href="#"><img class="icon" src="images/general.svg" alt="general">General</a></li>
+                    <li><a href="#"><img class="icon" src="images/details.svg" alt="details">Details</a></li>
+                    <li><a href="#"><img class="icon" src="images/links.svg" alt="links">Links</a></li>
+                    <li><a href="#"><img class="icon" src="images/banners.svg" alt="banners">Banners</a></li>
+                    <li><a href="#"><img class="icon" src="images/personaldata.svg" alt="personaldata">Personal data</a></li>
+                    <li><a href="#"><img class="icon" src="images/payout.svg" alt="payout">Payout</a></li>
+                    <li><a href="#"><img class="icon" src="images/postback.svg" alt="postback">Postback</a></li>
+                </ul>
+                <span class="line"></span>
+                <div class="messanger">Your manager</div>
+            </div>
+
+        </div>
+
+        <div class="main">
+
+            <div class="topbar">
+                <div class="form">
                     <ul>
-                        <span class="lineone"></span><li class="wallet"><button><img src="images/wallet.svg" alt="wallet">&nbsp;&nbsp; $1,500.00 &nbsp;&nbsp;<img class="arrow" src="images/arrow-down-small.svg" alt="arrow-down-small"></button></li>
+                        <span class="lineone"></span><li class="wallet"><img src="images/wallet.svg" alt="wallet"><button>&nbsp;&nbsp; $1,500.00 &nbsp;&nbsp;<img class="arrow" src="images/arrow-down-small.svg" alt="arrow-down-small"></button></li>
                         <span class="lineone"></span><li class="notification"><img class="notification" src="images/notification.svg"></li>
                         <span class="lineone"></span><li class="profile"><p><img src="images/profile.svg" alt="profile">&nbsp; Leonardo Dicaprio</p></li>
                         <span class="lineone"></span><li class="quit"><img src="images/quit.svg" alt="quit"></li>
                     </ul>
                 </div>
             </div>
-            
-        </nav>
 
-        <div class="content">
+            <div class="content">
+                
+                    <div class="maincontent">
+                        <div class="header"><p>General statistic</p></div>
+                        <div class="date"></div>
+                        <div></div>
+                    </div>
 
-            <div class="row">
-                <div class="sidebar col-2">                    
-                    <ul>
-                        <li><a href="#"><img class="icon" src="images/general.svg" alt="general">General</a></li>
-                        <li><a href="#"><img class="icon" src="images/details.svg" alt="details">Details</a></li>
-                        <li><a href="#"><img class="icon" src="images/links.svg" alt="links">Links</a></li>
-                        <li><a href="#"><img class="icon" src="images/banners.svg" alt="banners">Banners</a></li>
-                        <li><a href="#"><img class="icon" src="images/personaldata.svg" alt="personaldata">Personal data</a></li>
-                        <li><a href="#"><img class="icon" src="images/payout.svg" alt="payout">Payout</a></li>
-                        <li><a href="#"><img class="icon" src="images/postback.svg" alt="postback">Postback</a></li>
-                    </ul>
-                    <span class="line"></span>
-                    <div class="messanger">Your manager</div>
-                </div>
-
-                <div class="main col-10">
-
-                </div>
+                    <div class="maincontent">
+                        <div class="header"><p>Links</p></div>
+                        <div></div>
+                    </div>
 
             </div>
-        </div>
+
+        </div>       
 
     </body>
 </html>
