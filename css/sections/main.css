@@ -1,0 +1,141 @@
+.main {
+  background-color: #F5F5F2;
+  margin-left: 190px;
+}
+
+.main .content {
+  height: 100vmax;
+  background-color: #F5F5F2;
+}
+
+.main .content .maincontent {
+  margin: 17px 17px;
+  background-color: white;
+}
+
+.main .content .maincontent .header p {
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.main .content .maincontent .date {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.main .content .maincontent .date .form {
+  margin: 30px 0;
+}
+
+.main .content .maincontent .date .form .formframe {
+  margin: 0px auto;
+  background-color: white;
+  height: 45px;
+  float: left;
+  border-radius: 3px;
+  border: 1px solid #E3E3E3;
+}
+
+.main .content .maincontent .date .form .formframe input {
+  background-color: white;
+  height: 30px;
+  border: none;
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #333333;
+  line-height: 3;
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.main .content .maincontent .date .form .formframe .inputbreak {
+  background-color: #E3E3E3;
+  top: 3px;
+  width: 1px;
+  height: 28px;
+}
+
+.main .content .maincontent .date .form a {
+  padding: 14px;
+  margin-left: 10px;
+  background-color: #f58220;
+  border-radius: 3px;
+  top: 7px;
+  position: relative;
+}
+
+.main .content .maincontent .date .form a img {
+  position: relative;
+  top: 5px;
+  width: 20px;
+  height: 21px;
+  filter: invert(100%);
+}
+
+.main .content .maincontent .header p {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #a6a6a6;
+  text-transform: uppercase;
+  line-height: 2.625;
+  text-align: left;
+  padding-left: 17px;
+  margin: 0;
+}
+
+.main .content .maincontent .headers {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #a6a6a6;
+  font-weight: bold;
+  line-height: 2.625;
+  text-align: left;
+}
+
+.main .content .maincontent .headers .upspace {
+  padding-top: 30px;
+}
+
+.main .content .maincontent .headers .roow {
+  display: flex;
+  justify-content: center;
+}
+
+.main .content .maincontent .headers .roow .uppercase {
+  text-transform: uppercase;
+}
+
+.main .content .maincontent .headers .roow p {
+  display: inline;
+  width: 150px;
+  border-bottom: 1px solid #E3E3E3;
+  margin: 0;
+}
+
+.main .content .maincontent .headers .roow .right {
+  text-align: right;
+}
+
+.main .content .maincontent .headers .roow .roowbreak {
+  padding: 0 30px;
+}
+
+.main .content .maincontent .earnings {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+.main .content .maincontent .earnings p {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #a6a6a6;
+  font-weight: bold;
+  line-height: 2.625;
+  text-align: left;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
