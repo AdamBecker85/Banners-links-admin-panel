@@ -1,9 +1,9 @@
 .sidebar {
     width: 190px;
-    background-color: black;
-    height: 100vmax;
     color:white;
     float: left;
+    background-color: black;
+    
     
     .logo {
         background-color: black;
@@ -23,16 +23,30 @@
             left: 150px;
             top: 18px;
         } 
+        a:hover{
+            color: white;
+        }
     }
 
     .nav{
         position: absolute;
         top: 60px;
+        background-color: black;
+        width: 190px;
+        height: 100vmax;
 
         ul{
             list-style: none;
             line-height: 3;
             padding: 0;
+            li:hover{
+                a{
+                    color: white;
+                    .icon{
+                        filter: invert(90%);
+                    }
+                }
+            }
         }                    
         
         a{
@@ -40,7 +54,9 @@
             color: #979797;
             font-size: 14px;
             font-family: "Roboto";
+            
         }
+        
         .line {
             background-color: rgb(51, 51, 51);
             position: absolute;
@@ -56,6 +72,7 @@
             margin-left: 20px;
             filter: invert(55%);
         }
+        
         .messanger{
             text-transform: uppercase;
             color: #979797;

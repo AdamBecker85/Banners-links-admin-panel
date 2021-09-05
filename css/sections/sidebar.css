@@ -1,9 +1,8 @@
 .sidebar {
   width: 190px;
-  background-color: black;
-  height: 100vmax;
   color: white;
   float: left;
+  background-color: black;
 }
 
 .sidebar .logo {
@@ -27,15 +26,30 @@
   top: 18px;
 }
 
+.sidebar .logo a:hover {
+  color: white;
+}
+
 .sidebar .nav {
   position: absolute;
   top: 60px;
+  background-color: black;
+  width: 190px;
+  height: 100vmax;
 }
 
 .sidebar .nav ul {
   list-style: none;
   line-height: 3;
   padding: 0;
+}
+
+.sidebar .nav ul li:hover a {
+  color: white;
+}
+
+.sidebar .nav ul li:hover a .icon {
+  filter: invert(90%);
 }
 
 .sidebar .nav a {

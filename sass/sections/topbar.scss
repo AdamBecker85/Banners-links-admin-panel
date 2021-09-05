@@ -7,59 +7,65 @@
         height: 60px;
         margin: 0;
         
-        img{
-            width: 20px;
-            height: 20px;
-            filter: invert(55%);
-            vertical-align: middle;
-        }
+        
         ul{
             float: right;
             margin: 0;
-        }
-        li{
-            display: inline-block;
-            text-align: center;
-            vertical-align: middle;
-        }
-        button{
-            border: none;
-            background: none;
-            font-size: 20px;
-            font-family: "Roboto";
-            color: rgb(156, 156, 156);
-            line-height: 2.1;
-            
-        }
-        p{
-            font-size: 13px;
-            font-family: "Roboto";
-            color: rgb(86, 129, 159);
-            line-height: 2.1;
-                   
-        }
-        .arrow{
-            width: 10px;
-            height: 10px;
-        }
-        .wallet{
-            width: 190px;
-        }
-        .notification{
-            width: 55px;
-        }
-        .profile{
-            width: 175px;
-        }
-        .quit{
-            width: 60px;
-        }
-        .lineone {
-            background-color: #E3E3E3;
-            position: absolute;
-            width: 1px;
-            height: 60px;
-        }
+
+            .lineone {
+                background-color: #E3E3E3;
+                position: absolute;
+                width: 1px;
+                height: 60px;
+            }
+            li{
+                display: inline-block;
+                text-align: center;
+                vertical-align: middle;
+
+                a{
+                    border: none;
+                    background: none;
+                    font-size: 20px;
+                    font-family: "Roboto";
+                    color: rgb(156, 156, 156);
+                    line-height: 2.1;
+                    text-decoration: none;
+                    .arrow{
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
+
+                img{
+                    width: 20px;
+                    height: 20px;
+                    filter: invert(55%);
+                    vertical-align: middle;
+                }
+
+                p{
+                    font-size: 13px;
+                    font-family: "Roboto";
+                    color: rgb(86, 129, 159);
+                    line-height: 2.1;
+                           
+                }
+            }
+            .wallet{
+                width: 190px;
+            }
+            .notification{
+                width: 55px;
+            }
+            .profile{
+                width: 175px;
+            }
+            .quit{
+                width: 60px;
+            }
+        }      
+      
     }
     
 }

@@ -8,66 +8,67 @@
   margin: 0;
 }
 
-.topbar .form img {
-  width: 20px;
-  height: 20px;
-  filter: invert(55%);
-  vertical-align: middle;
-}
-
 .topbar .form ul {
   float: right;
   margin: 0;
 }
 
-.topbar .form li {
+.topbar .form ul .lineone {
+  background-color: #E3E3E3;
+  position: absolute;
+  width: 1px;
+  height: 60px;
+}
+
+.topbar .form ul li {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
 }
 
-.topbar .form button {
+.topbar .form ul li a {
   border: none;
   background: none;
   font-size: 20px;
   font-family: "Roboto";
   color: #9c9c9c;
   line-height: 2.1;
+  text-decoration: none;
 }
 
-.topbar .form p {
+.topbar .form ul li a .arrow {
+  width: 10px;
+  height: 10px;
+}
+
+.topbar .form ul li img {
+  width: 20px;
+  height: 20px;
+  filter: invert(55%);
+  vertical-align: middle;
+}
+
+.topbar .form ul li p {
   font-size: 13px;
   font-family: "Roboto";
   color: #56819f;
   line-height: 2.1;
 }
 
-.topbar .form .arrow {
-  width: 10px;
-  height: 10px;
-}
-
-.topbar .form .wallet {
+.topbar .form ul .wallet {
   width: 190px;
 }
 
-.topbar .form .notification {
+.topbar .form ul .notification {
   width: 55px;
 }
 
-.topbar .form .profile {
+.topbar .form ul .profile {
   width: 175px;
 }
 
-.topbar .form .quit {
+.topbar .form ul .quit {
   width: 60px;
-}
-
-.topbar .form .lineone {
-  background-color: #E3E3E3;
-  position: absolute;
-  width: 1px;
-  height: 60px;
 }
 
 /*# sourceMappingURL=topbar.css.map */
