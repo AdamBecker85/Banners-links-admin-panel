@@ -15,16 +15,21 @@
             left: 20px;
             top: 18px;
         }
-        a {
+        a.hamburger {
             color: grey;
             float: right;            
             font-size: 22px;
             position: absolute;
             left: 150px;
             top: 18px;
+            width: 25px;
+            height: 25px;
         } 
         a:hover{
             color: white;
+        }
+        .formtwo{
+            display: none;
         }
     }
 

@@ -62,7 +62,7 @@ body {
                 }
                 a:hover{
                     img{
-                        visibility: visible;
+                        filter: invert(90%)
                     }
                 }
             }
@@ -76,7 +76,13 @@ body {
 
         li:hover{
             background-color: rgb(177, 191, 191);
-                          
+                div.btns{
+                    a{
+                        img{
+                            visibility: visible;
+                        }
+                    }    
+                }   
         }
 
         .up{
@@ -114,7 +120,10 @@ body {
 @media(max-width:767px){
     
     .sidebar{
-        width: 100vmax;
+        
+        width: 100%;
+        //border: 2px solid red;
+
         .nav{
             display: none;
         }
@@ -123,12 +132,84 @@ body {
             z-index: 9999;
         }
         .logo{
-            width: 100vmax;
+            width: 190px;
+        }
+        .formtwo{
+                    
+            background-color: rgba(255, 255, 255, .1);
+            border-bottom: 1px solid black;
+            height: 60px;
+            
+            ul{
+                //border: 2px solid red;
+                margin: 0;
+                float: right;
+                padding: 0;
+                
+    
+                .lineone {
+                    width: 1px;
+                    height: 60px;
+                    
+                }
+                
+                li{
+                    display: inline;
+                    text-align: center;
+                    vertical-align: middle;
+                    float: left;
+                    //border: 2px solid yellow;
+                    height: 60px;
+                    padding-top: 10px;
+                                       
+                    a{
+                        border: none;
+                        background: none;
+                        font-size: 17px;
+                        font-family: "Roboto";
+                        color: rgb(156, 156, 156);
+                        line-height: 2.1;
+                        text-decoration: none;
+                        
+                        
+                        .arrow{
+                            width: 10px;
+                            height: 10px;
+                        }
+                    }
+    
+                    img{
+                        width: 18px;
+                        height: 18px;
+                        filter: invert(55%);
+                        position: static;
+                        vertical-align: middle;
+                                            }
+    
+                    p{
+                        font-size: 13px;
+                        font-family: "Roboto";
+                        color: rgb(86, 129, 159);                           
+                    }
+                }
+                .wallet{
+                    width: 130px;
+                }
+                .notification{
+                    width: 35px;
+                }
+                .profile{
+                    width: 130px;
+                }
+                .quit{
+                    width: 35px;
+                }
+            }
         }
     }
 
     .topbar{
-        padding-top: 60px;
+        display: none;
         .form{
             
             ul{
@@ -150,6 +231,11 @@ body {
         .content{
             .maincontent{
                 margin: 0 17px;
+                .date{
+                    display: flex;
+                    justify-content: center;
+                    
+                }
                 .links{
                     li{
                     width: 450px;
